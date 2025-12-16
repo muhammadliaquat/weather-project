@@ -1,4 +1,4 @@
-🟢 <h1>Milestone 1 – Project Description</h1>
+<h1>Milestone 1 – Project Description</h1>
 <b>Overview</b>
 
 The Weather Data Analytics & Search Platform is a REST-based web application designed to store, index, search, and analyze historical weather data using Elasticsearch. The system allows users to perform CRUD operations on weather records and retrieve analytical insights such as hottest cities, rainfall trends, and seasonal patterns.
@@ -18,7 +18,7 @@ Frontend: HTML, CSS, JavaScript
 Visualization: Chart.js
 
 
-🟢 <h1>Milestone 2 – Use Case List</h1>
+<h1>Milestone 2 – Use Case List</h1>
 <b>Actors</b>
 
 -User
@@ -56,7 +56,7 @@ UC-6: Visual Analytics
 
 User views weather analytics via charts.
 
-🟢 <h1>Milestone 3 – REST API & Swagger Documentation</h1>
+<h1>Milestone 3 – REST API & Swagger Documentation</h1>
 REST API Endpoints
 Endpoint	Method	Description
 /weather	POST	Insert weather data
@@ -72,7 +72,7 @@ Defines request/response schemas
 
 swagger/openapi.yaml
 
-🟢 <h1>Milestone 4 – Elasticsearch Mapping</h1>
+<h1>Milestone 4 – Elasticsearch Mapping</h1>
 Index Name
 weather
 
@@ -98,7 +98,7 @@ Supports aggregations
 
 Optimized analytics queries
 
-🟢 <h1>Milestone 5 – Implementation </h1>
+<h1>Milestone 5 – Implementation </h1>
 
 <b>Backend</b>
 
@@ -134,7 +134,7 @@ JSON-based communication
 
 Elasticsearch document storage
 
-🟢 <h1>Milestone 6 – Postman Testing</h1>
+<h1>Milestone 6 – Postman Testing</h1>
 Tested Operations
 
 POST: Insert weather data
@@ -155,18 +155,29 @@ JSON responses
 
 Status codes verification
 
-...
-📂 Final GitHub Project Structure
+Final GitHub Project Structure
 weather-project/
+
 ├── api/
+
 │   └── index.php
+
 ├── frontend/
+
 │   ├── index.html
+
 │   ├── style.css
+
 │   └── app.js
+
 ├── data/
+
 │   └── weather_dataset_expanded.csv
+
 ├── swagger/
+
 │   └── openapi.yaml
+
 ├── README.md
-...
+
+
