@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: Weather Data Analytics API
+  description: REST API for weather analytics using PHP and Elasticsearch
+  version: 1.0.0
+
+servers:
+  - url: http://localhost/weather-project
+
+paths:
+  /api/index.php:
+    get:
+      summary: Weather analytics endpoint
+      description: Returns analytical results based on the selected action
+      parameters:
+        - name: action
+          in: query
+          required: true
+          description: Type of weather analytics to execute
+          schema:
+            type: string
+            enum:
+              - top-hot
+              - top-cold
+              - rainfall
+              - seasonal
+              - anomalies
+      responses:
+        '200':
+          description: Successful JSON response containing analytics results
+          content:
+            application/json:
+              example:
+                aggregations:
+                  cities:
+                    buckets:
+                      - key: Bucharest
+                        max_temp:
+                          value: 38.5
